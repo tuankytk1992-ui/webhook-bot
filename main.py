@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # ================= CẤU HÌNH ĐÃ NHẬP SẴN =================
 # Token của Page "Chat Girl" Boss đã gửi
-PAGE_ACCESS_TOKEN = "EAAMDu78qm1MBQX3tXJRpU5aFl1YaUsbNZBK0MGGx448RCdG32W4gGwmDqrmtsmNzubvubtjzvgN6RZA0dmlHhijHa796nIEHCSfkTAMVf8e1nkOdtzZCw4DUKM9gjv3WhGNRVJzhC7xqCJl06gNCZCVPNN3rnZBfvf9ZB2laNDiF3ZAOoXgdFKAqVoJQPLeGpET8kqecIj96kRw7pjJExBi6QZDZD"
+PAGE_ACCESS_TOKEN = "EAAMDu78qm1MBQc887o6SLuauIy2zWzR787Ac6u8Ty4dj8xZC2PEZBriuoU9djlPtnJaE4yOpXdb5LB4oN8lT1HJqTa5nrJPaZCU1Y0ZAMHHjYJzFuCVozkTRBCzIzflYaJGYXQk1vGQ2J91dY7pYBLIuLagYBqoZCnZBKIDF6ZCvsbAZBs7m7YeevQMrQjZCCyMMy3cYUYqkIeJriDcUv9b8q0gZDZD"
 
 # Mã verify
 VERIFY_TOKEN = "boss_dep_trai_123"
@@ -49,3 +49,4 @@ def tra_loi_khach(nguoi_nhan_id, noi_dung):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
+

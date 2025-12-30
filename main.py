@@ -15,7 +15,7 @@ GEMINI_API_KEY = "DÁN_KEY_AIzaSy..._CỦA_BOSS_VÀO_ĐÂY"
 
 # Kết nối
 bot = Bot(PAGE_ACCESS_TOKEN)
-if GEMINI_API_KEY != "DÁN_KEY_AIzaSy..._CỦA_BOSS_VÀO_ĐÂY":
+if GEMINI_API_KEY != "AIzaSyA4mZE8LETvWXg_JFtEee75vPTWrRYpUys":
     genai.configure(api_key=GEMINI_API_KEY)
 
 # --- CÀI ĐẶT TÍNH CÁCH "GÁI NGÀNH" (PROMPT) ---
@@ -76,3 +76,4 @@ def receive_message():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=10000)
+
